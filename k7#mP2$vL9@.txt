@@ -5,6 +5,7 @@
 #announce: 🔥 Серверов: 115 ══ ✦ Обновлено: 18.09.2026 ══ ⚠️ LTE/5G для крайних случаев! ══ 🚫 Без торрентов! ══ 🚀 Top: ~3093.9 Mbps, ~203 ms
 #support-url: https://t.me/proxygem_bot
 #profile-web-page-url: https://t.me/proxy_gem777
+
 vless://34fc6d57-0fd6-42f8-af83-21c9d4d87b3f@93.190.9.14:3090?type=grpc&security=none&encryption=none&serviceName=vless&mode=multi#[ProxyGem] Турция (Ускоренная) 🇹🇷 ⚡
 vless://8aeda8e3-dd32-4071-bcbb-f793e646eb13@poland2.serverslocal.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=poland2.serverslocal.ru&fp=random&pbk=dkaIImQrQ1ZVQGNfyrNZbtkE-8hxp_u8AH99XDFgfHw&sid=75c55b707d25ae8d&type=tcp#[ProxyGem] Польша (Top Speed) 🇵🇱
 vless://adc11f30-e4cb-4985-bf5e-f9ded69c019f@144.31.131.38:443?encryption=none&flow=xtls-rprx-vision&pbk=fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI&security=reality&sid=db04ce8bdb8900f1&sni=prod.pl-node-01.security-sbrf.ru&type=tcp&fp=qq#[ProxyGem] Албания (Top Ping) 🇦🇱
