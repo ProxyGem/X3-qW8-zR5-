@@ -3,8 +3,8 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=77777000000000; expire=151400523600
 #announce: 💎 Серверов: 15 | Обязательно подпишитесь на @proxy_gem777 в Телеграме! | ⚠️ LTE/5G для крайних случаев! Без торрентов! | 📌 Обновление было: 30.09.26 в 22:41
-#support-url: https://t.me/proxy_gem777
-#profile-web-page-url: https://t.me/Vlessforu
+#support-url: https://t.me/proxygem_bot
+#profile-web-page-url: https://t.me/proxy_gem777
 vless://e3e9805a-6c8b-4edd-8ee8-621df79806eb@51.158.156.17:8443?type=grpc&security=reality&fp=firefox&pbk=B5-zPBBAI-UATY7rSvoggM1T65h9CfVw7yBluBNd-yI&sid=4a5f04a5ea205fc3&sni=nl.aksay.pro#Белые списки LTE | 5G (⚡Ускоренная) 🇳🇱 
 vless://d9090ce9-388b-45b9-9e84-64eac5522b8a@89.22.232.117:443?encryption=none&fp=firefox&pbk=3Qh9roHIRJtLEM-gV_hudQrY6wPK_Dc3ePVtWLGqYho&security=reality&sid=ef7db38f625526f5&sni=www.goo.gl&type=tcp#Белые списки LTE | 5G (🚀 Top Speed) 🇸🇪
 vless://d4cae7df-50a1-428c-bd62-881c8f3bbd90@212.46.33.5:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=z37XIezsPyfMgmdXyFd9qT4C4maDAs1OcRt-wfyrXVo&security=reality&sid=9c2378562188c3cb&sni=slowkd.sadiepinki.com&type=tcp#Белые списки LTE | 5G (📌 Top Ping) 🇳🇱
