@@ -6,231 +6,38 @@
 #support-url: https://t.me/proxygem_bot
 #profile-web-page-url: https://t.me/proxy_gem777
 vless://d9090ce9-388b-45b9-9e84-64eac5522b8a@91.108.242.126:47182?type=tcp&encryption=none&security=reality&sni=www.goo.gl&pbk=3Qh9roHIRJtLEM-gV_hudQrY6wPK_Dc3ePVtWLGqYho&fp=firefox&sid=ef7db38f625526f5#🇪🇺 💎ТГК | @proxy_gem777
-vless://d9090ce9-388b-45b9-9e84-64eac5522b8a@91.108.242.126:47182?type=tcp&encryption=none&security=reality&sni=www.goo.gl&pbk=3Qh9roHIRJtLEM-gV_hudQrY6wPK_Dc3ePVtWLGqYho&fp=firefox&sid=ef7db38f625526f5#🇪🇺 ❌ Подписка закончилась
-vless://d9090ce9-388b-45b9-9e84-64eac5522b8a@91.108.242.126:47182?type=tcp&encryption=none&security=reality&sni=www.goo.gl&pbk=3Qh9roHIRJtLEM-gV_hudQrY6wPK_Dc3ePVtWLGqYho&fp=firefox&sid=ef7db38f625526f5#🇪🇺 Продлите её в Telegram-боте
-vless://d9090ce9-388b-45b9-9e84-64eac5522b8a@91.108.242.126:47182?type=tcp&encryption=none&security=reality&sni=www.goo.gl&pbk=3Qh9roHIRJtLEM-gV_hudQrY6wPK_Dc3ePVtWLGqYho&fp=firefox&sid=ef7db38f625526f5#🇪🇺 чтобы вернуть доступ
 
-{
-    "dns": {
-        "queryStrategy": "UseIPv4"
-    },
-    "inbounds": [
-        {
-            "listen": "127.0.0.1",
-            "port": 10808,
-            "protocol": "socks",
-            "settings": {
-                "auth": "noauth",
-                "udp": true
-            },
-            "sniffing": {
-                "destOverride": [
-                    "http",
-                    "tls",
-                    "quic"
-                ],
-                "enabled": true,
-                "routeOnly": false
-            },
-            "tag": "socks"
-        },
-        {
-            "listen": "127.0.0.1",
-            "port": 10809,
-            "protocol": "http",
-            "settings": {
-                "allowTransparent": false
-            },
-            "sniffing": {
-                "destOverride": [
-                    "http",
-                    "tls",
-                    "quic"
-                ],
-                "enabled": true,
-                "routeOnly": false
-            },
-            "tag": "http"
-        }
-    ],
-    "log": {
-        "loglevel": "none"
-    },
-    "meta": null,
-    "observatory": {
-        "enableConcurrency": true,
-        "probeInterval": "10m",
-        "probeUrl": "https://www.gstatic.com/generate_204",
-        "subjectSelector": [
-            "rescue_"
-        ]
-    },
-    "outbounds": [
-        {
-            "protocol": "freedom",
-            "tag": "direct"
-        },
-        {
-            "protocol": "vless",
-            "settings": {
-                "vnext": [
-                    {
-                        "address": "5.175.178.121",
-                        "port": 443,
-                        "users": [
-                            {
-                                "encryption": "none",
-                                "flow": "",
-                                "id": "43948542-5c01-4fc3-bf42-e339e9ca3fbe"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "streamSettings": {
-                "network": "xhttp",
-                "realitySettings": {
-                    "fingerprint": "random",
-                    "publicKey": "B4NK8UZflXK2SI7P6wvCbfSw0wspQRO0ElZM30gc_1E",
-                    "serverName": "pimg.mycdn.me",
-                    "show": false
-                },
-                "security": "reality",
-                "xhttpSettings": {
-                    "extra": {
-                        "noGRPCHeader": false,
-                        "scMaxEachPostBytes": 1000000,
-                        "scMinPostsIntervalMs": 30,
-                        "scStreamUpServerSecs": "20-80",
-                        "xPaddingBytes": "100-1000",
-                        "xmux": {
-                            "cMaxReuseTimes": 0,
-                            "hKeepAlivePeriod": 0,
-                            "hMaxRequestTimes": "600-900",
-                            "hMaxReusableSecs": "1800-3000",
-                            "maxConnections": 1
-                        }
-                    },
-                    "host": "pimg.mycdn.me",
-                    "mode": "auto",
-                    "path": "/"
-                }
-            },
-            "tag": "rescue_1"
-        },
-        {
-            "protocol": "vless",
-            "settings": {
-                "vnext": [
-                    {
-                        "address": "2.27.27.33",
-                        "port": 443,
-                        "users": [
-                            {
-                                "encryption": "none",
-                                "flow": "",
-                                "id": "43948542-5c01-4fc3-bf42-e339e9ca3fbe"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "streamSettings": {
-                "network": "xhttp",
-                "realitySettings": {
-                    "fingerprint": "random",
-                    "publicKey": "B4NK8UZflXK2SI7P6wvCbfSw0wspQRO0ElZM30gc_1E",
-                    "serverName": "pimg.mycdn.me",
-                    "show": false
-                },
-                "security": "reality",
-                "xhttpSettings": {
-                    "extra": {
-                        "noGRPCHeader": false,
-                        "scMaxEachPostBytes": 1000000,
-                        "scMinPostsIntervalMs": 30,
-                        "scStreamUpServerSecs": "20-80",
-                        "xPaddingBytes": "100-1000",
-                        "xmux": {
-                            "cMaxReuseTimes": 0,
-                            "hKeepAlivePeriod": 0,
-                            "hMaxRequestTimes": "600-900",
-                            "hMaxReusableSecs": "1800-3000",
-                            "maxConnections": 1
-                        }
-                    },
-                    "host": "pimg.mycdn.me",
-                    "mode": "auto",
-                    "path": "/"
-                }
-            },
-            "tag": "rescue_2"
-        },
-        {
-            "protocol": "blackhole",
-            "settings": {
-                "response": {
-                    "type": "http"
-                }
-            },
-            "tag": "block"
-        }
-    ],
-    "remarks": "🧢 Телеграмм бот + сайт",
-    "routing": {
-        "balancers": [
-            {
-                "fallbackTag": "direct",
-                "selector": [
-                    "rescue_"
-                ],
-                "strategy": {
-                    "type": "leastPing"
-                },
-                "tag": "rescue-balancer"
-            }
-        ],
-        "domainMatcher": "hybrid",
-        "domainStrategy": "IPIfNonMatch",
-        "rules": [
-            {
-                "balancerTag": "rescue-balancer",
-                "domain": [
-                    "geosite:telegram"
-                ],
-                "ruleTag": "geosite-telegram"
-            },
-            {
-                "balancerTag": "rescue-balancer",
-                "ip": [
-                    "91.108.56.0/22",
-                    "91.108.4.0/22",
-                    "91.108.8.0/22",
-                    "91.108.16.0/22",
-                    "91.108.12.0/22",
-                    "149.154.160.0/20",
-                    "91.105.192.0/23",
-                    "91.108.20.0/22",
-                    "185.76.151.0/24",
-                    "2001:b28:f23d::/48",
-                    "2001:b28:f23f::/48",
-                    "2001:67c:4e8::/48",
-                    "2001:b28:f23c::/48",
-                    "2a0a:f280::/32"
-                ],
-                "ruleTag": "ip-telegram"
-            },
-            {
-                "balancerTag": "rescue-balancer",
-                "domain": [
-                    "domain:atlanta-vpn.com",
-                    "domain:atlanta-internet.ru",
-                    "domain:atlanta-subs.ru",
-                    "domain:atlanta-router.online",
-                    "domain:atlanta-router.ru"
-                ],
-                "ruleTag": "company-domain"
-            }
-        ]
-    }
-}
+vless://e8ed02d5-fc08-4559-866d-8c05c18f33c1@nl.staxel.click:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=confluence-nl.staxel.click&fp=firefox&pbk=7RoAmB1Y-nck4vhHwkZxi0G7NXsVoegpSJNa8ZqQygo#🇳🇱 Netherlands
+
+vless://e8ed02d5-fc08-4559-866d-8c05c18f33c1@nl.staxel.click:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=confluence-nl.staxel.click&fp=firefox&pbk=7RoAmB1Y-nck4vhHwkZxi0G7NXsVoegpSJNa8ZqQygo#🇳🇱 Netherlands
+
+hysteria2://66c63af6-c4dd-4f6d-b579-e48b2409222b@media.pantera-radio.ru:443/?sni=media.pantera-radio.ru&alpn=h3&insecure=0&fp=chrome#🇳🇱%20Netherlands HY2
+
+vless://e8ed02d5-fc08-4559-866d-8c05c18f33c1@tr.gostxl.top:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=confluence-tr.staxel.click&fp=firefox&pbk=7RoAmB1Y-nck4vhHwkZxi0G7NXsVoegpSJNa8ZqQygo#🇹🇷 Turkey
+
+vless://e8ed02d5-fc08-4559-866d-8c05c18f33c1@fi.staxel.click:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=confluence-fi.staxel.click&fp=firefox&pbk=7RoAmB1Y-nck4vhHwkZxi0G7NXsVoegpSJNa8ZqQygo#🇫🇮 Finland
+
+vless://e8ed02d5-fc08-4559-866d-8c05c18f33c1@kz.staxel.click:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=kz.staxel.click&fp=firefox&pbk=7RoAmB1Y-nck4vhHwkZxi0G7NXsVoegpSJNa8ZqQygo&type=tcp&headerType=none#🇰🇿 Kazakhstan
+
+vless://e8ed02d5-fc08-4559-866d-8c05c18f33c1@pl.gostxl.top:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=confluence-pl.staxel.click&fp=firefox&pbk=7RoAmB1Y-nck4vhHwkZxi0G7NXsVoegpSJNa8ZqQygo#🇵🇱 Poland
+
+hysteria2://e8ed02d5-fc08-4559-866d-8c05c18f33c1@pl-hy.gostxl.top:443/?sni=pl-hy.staxel.click&alpn=h3&insecure=0#🇵🇱 Poland HY2
+hysteria2://66c63af6-c4dd-4f6d-b579-e48b2409222b@mix.pantera-radio.ru:443/?sni=mix.pantera-radio.ru&alpn=h3&insecure=0&fp=chrome#🇵🇱%20Poland HY2
+
+vless://e8ed02d5-fc08-4559-866d-8c05c18f33c1@plg.gostxl.top:443?encryption=none&security=reality&sni=confluence-pl.staxel.click&fp=firefox&pbk=7RoAmB1Y-nck4vhHwkZxi0G7NXsVoegpSJNa8ZqQygo&type=grpc&serviceName=xyz&mode=gun#🇵🇱 Poland
+
+vless://e8ed02d5-fc08-4559-866d-8c05c18f33c1@plg.gostxl.top:443?encryption=none&security=reality&sni=confluence-pl.staxel.click&fp=firefox&pbk=7RoAmB1Y-nck4vhHwkZxi0G7NXsVoegpSJNa8ZqQygo&type=grpc&serviceName=xyz&mode=gun#🇵🇱 Poland (Запаска)
+
+vless://e8ed02d5-fc08-4559-866d-8c05c18f33c1@us.gostxl.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=confluence-us.staxel.click&fp=firefox&pbk=7RoAmB1Y-nck4vhHwkZxi0G7NXsVoegpSJNa8ZqQygo&type=tcp&headerType=none#🇺🇸 United States
+
+vless://e8ed02d5-fc08-4559-866d-8c05c18f33c1@ru.staxel.click:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=confluence-ru.staxel.click&fp=firefox&pbk=7RoAmB1Y-nck4vhHwkZxi0G7NXsVoegpSJNa8ZqQygo#🇷🇺 Russia Для Youtube
+
+vless://e8ed02d5-fc08-4559-866d-8c05c18f33c1@se.staxel.click:443?encryption=none flow=xtls-rprx-vision&security=reality&sni=se.staxel.click&fp=firefox&pbk=7RoAmB1Y-nck4vhHwkZxi0G7NXsVoegpSJNa8ZqQygo&type=tcp&headerType=none#🇸🇪 Sweden
+
+vless://e8ed02d5-fc08-4559-866d-8c05c18f33c1@se-grpc.staxel.click:443?encryption=none&security=reality&sni=se.staxel.click&fp=firefox&pbk=7RoAmB1Y-nck4vhHwkZxi0G7NXsVoegpSJNa8ZqQygo&type=grpc&serviceName=xyz&mode=gun#🇸🇪 Sweden (Запаска)
+
+hysteria2://66c63af6-c4dd-4f6d-b579-e48b2409222b@waves.pantera-radio.ru:443/?sni=waves.pantera-radio.ru&alpn=h3&insecure=0&fp=chrome#🇪🇪%20Estonia
+
+hysteria2://66c63af6-c4dd-4f6d-b579-e48b2409222b@covers.pantera-radio.ru:443/?sni=covers.pantera-radio.ru&alpn=h3&insecure=0&fp=chrome#🇩🇪%20Germany
+
+vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@66.90.105.211:2083?encryption=none&security=none&type=grpc&serviceName=vless&mode=gun#🇬🇧%20United Kingdom%20%231
